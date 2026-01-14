@@ -42,9 +42,6 @@ Hand-code a multi-track indicator workspace:
 
 ### Phase 4: Agentic Report Generation
 * Build the **Weighted Verdict Logic** (Combining RSI, BB, MACD, and Sentiment).
-* Engineer a **Prompt Template** for Google Gemini.
-* **Outcome:** A button that generates a professional Wall Street Quant Report on demand.
-
 ---
 
 ## Installation & Setup
