@@ -1,63 +1,56 @@
-# 📈 AI-Powered Quant Trading Dashboard
+# 📈 SentimentX Elite: AI-Powered Quant Dashboard
 ### Finova x ISTE | Aurora 2026 Interactive Workshop
 
-Welcome to the **AI-Powered Quant Trading Dashboard** workshop! In this session, we are moving beyond simple price charts. You will build a production-grade financial tool that combines **Quantitative Math** with **Artificial Intelligence** to generate real-time trading signals.
+Welcome to the **SentimentX Elite** workshop! Today, you aren't just building a chart; you are engineering a **Wall Street-grade Quant Terminal**. We are combining raw market physics (Indicators) with the power of Large Language Models (Gemini) to automate financial analysis.
 
 ---
 
-## 🚀 The Mission
-Most traders fail because they trade on emotion. Our goal today is to build a **"Verdict Engine"** that uses logic and data to decide whether to **Buy, Sell, or Hold**.
-
-**We will bridge two worlds:**
-1.  **The Math:** Using Technical Indicators (RSI, Bollinger Bands, MACD).
-2.  **The Narrative:** Using AI (NLP) to "read" the news and gauge market sentiment.
-
----
-
-## 🛠 The Tech Stack
-* **Language:** Python 3.10+
-* **UI/Web Framework:** [Streamlit](https://streamlit.io/)
-* **Data Sourcing:** `yfinance` & `BeautifulSoup4`
-* **Financial Math:** `Pandas` & `NumPy`
-* **AI/NLP:** `NLTK / VADER` (Sentiment Analysis)
-* **Visuals:** `Plotly` (Interactive High-Fidelity Charts)
+##  The Mission
+We are building a **Verdict Engine** that eliminates human bias. By the end of this session, your app will:
+1.  **Analyze Physics:** Process Volatility, Momentum, and Trend through math.
+2.  **Analyze Mood:** Use NLP to "read" institutional news from Finnhub.
+3.  **Generate Thesis:** Use Google Gemini to write a professional Analyst Report automatically.
 
 ---
 
-## 🗺 Project Roadmap
-
-### Phase 1: Financial Data Engineering
-* Connecting to the Yahoo Finance API.
-* Handling Time-Series dataframes and cleaning null values.
-* **Outcome:** A reactive sidebar that fetches live data for any ticker (AAPL, BTC-USD, etc.).
-
-### Phase 2: The Quantitative Engine
-We will hand-code the following professional indicators:
-* **RSI (Relative Strength Index):** Identifying momentum exhaustion.
-* **Bollinger Bands:** Measuring volatility and price channels.
-* **MACD (Moving Average Convergence Divergence):** Finding trend reversals.
-* **Volume Profile:** Confirming the strength of price moves.
-
-### Phase 3: The AI Brain - NLP Sentiment
-* Scraping real-time market news headlines.
-* Processing text through the **VADER Sentiment Engine**.
-* **Outcome:** A "Mood Score" from -1 (Panic) to +1 (Euphoria).
-
-### Phase 4: The Synthesis (Verdict Engine)
-* Building a **Weighted Decision Matrix**.
-* **Example Logic:** `(RSI Score * 0.3) + (Sentiment Score * 0.4) + (Trend Score * 0.3)`
-* **Outcome:** A beautiful UI Gauge showing: **STRONG BUY / NEUTRAL / SELL**.
+## The Tech Stack
+* **Core:** Python 3.10+ & [Streamlit](https://streamlit.io/) (High-performance UI)
+* **Market Data:** `yfinance` (Live Pricing) & `Finnhub API` (Institutional News)
+* **The "Brain":** `Google Gemini 2.5 Flash` (Generative AI Analyst)
+* **Financial Math:** `Pandas` (Vectorized Operations)
+* **Visuals:** `Plotly` (High-Fidelity Multi-track Subplots)
 
 ---
 
-## 🔧 Installation & Setup
+##  Project Roadmap
 
-Ensure you have Python installed, then run:
+### Phase 1: Market Data Pipeline
+* Connect to `yfinance` and handle **Multi-Index** dataframes.
+* Implement **API Authentication** for Finnhub and Google Gemini.
+* Build a high-performance reactive sidebar.
 
+### Phase 2: The Unified Quant Engine
+Hand-code a multi-track indicator workspace:
+* **Bollinger Bands:** Volatility envelopes for mean-reversion.
+* **RSI Oscillator:** Identifying overbought/oversold momentum.
+* **MACD Trend:** Tracking signal line crossovers for entry/exit timing.
+
+### Phase 3: AI Sentiment Analysis
+* Implement live news fetching via **Finnhub**.
+* Process headlines through the **VADER Sentiment Engine**.
+* Calculate an **Aggregate Mood Score** from -1.0 (Panic) to +1.0 (Euphoria).
+
+### Phase 4: Agentic Report Generation
+* Build the **Weighted Verdict Logic** (Combining RSI, BB, MACD, and Sentiment).
+* Engineer a **Prompt Template** for Google Gemini.
+* **Outcome:** A button that generates a professional Wall Street Quant Report on demand.
+
+---
+
+## Installation & Setup
+
+1. **Clone & Install:**
 ```bash
-# Clone the repository
-git clone [https://github.com/](https://github.com/)[your-username]/quant-trading-dashboard.git
-cd quant-trading-dashboard
-
-# Install required libraries
-pip install streamlit yfinance pandas numpy nltk plotly beautifulsoup4
+git clone [https://github.com/](https://github.com/)[your-username]/sentimentx-elite.git
+cd sentimentx-elite
+pip install streamlit yfinance pandas numpy nltk plotly finnhub-python google-generativeai
