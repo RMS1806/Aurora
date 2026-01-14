@@ -51,6 +51,6 @@ Hand-code a multi-track indicator workspace:
 
 1. **Clone & Install:**
 ```bash
-git clone [https://github.com/](https://github.com/)[your-username]/sentimentx-elite.git
-cd sentimentx-elite
+git clone [https://github.com/](https://github.com/)[RMS1806]/Aurora.git
+cd Aurora
 pip install streamlit yfinance pandas numpy nltk plotly finnhub-python google-generativeai
