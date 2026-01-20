@@ -1,53 +1,69 @@
 # 📈 SentimentX Elite: AI-Powered Quant Dashboard
 ### Finova x ISTE | Aurora 2026 Interactive Workshop
 
-Welcome to the **SentimentX Elite** workshop! Today, you aren't just building a chart; you are engineering a **Wall Street-grade Quant Terminal**. We are combining raw market physics (Indicators) with the power of Large Language Models (Gemini) to automate financial analysis.
+Welcome to the **SentimentX Elite** workshop! Today, you aren't just building a chart; you are engineering a **Wall Street-grade Quant Terminal**. We are combining raw market physics with automated sentiment analysis to eliminate emotional bias from trading.
 
 ---
 
-##  The Mission
-We are building a **Verdict Engine** that eliminates human bias. By the end of this session, your app will:
-1.  **Analyze Physics:** Process Volatility, Momentum, and Trend through math.
-2.  **Analyze Mood:** Use NLP to "read" institutional news from Finnhub.
-3.  **Generate Thesis:** Use Google Gemini to write a professional Analyst Report automatically.
+## 🚀 The Mission
+We are building a **Verdict Engine** that synthesizes multiple data streams into a single, logic-backed decision. By the end of this session, your terminal will:
+
+1.  **Analyze Physics**: Process Volatility, Momentum, and Trend through math.
+2.  **Analyze Mood**: Use NLP to "read" institutional news and determine market sentiment.
+3.  **Simulate History**: Run a **Backtest Engine** to see if your strategy would have actually made money in the past.
 
 ---
 
-## The Tech Stack
-* **Core:** Python 3.10+ & [Streamlit](https://streamlit.io/) (High-performance UI)
-* **Market Data:** `yfinance` (Live Pricing) & `Finnhub API` (Institutional News)
-* **The "Brain":** `Google Gemini 2.5 Flash` (Generative AI Analyst)
-* **Financial Math:** `Pandas` (Vectorized Operations)
-* **Visuals:** `Plotly` (High-Fidelity Multi-track Subplots)
+## 🛠 The Tech Stack
+* **UI Framework**: [Streamlit](https://streamlit.io/) (Finance Terminal Custom CSS Theme).
+* **Market Data**: `yfinance` (Live Equity/Crypto Pricing).
+* **Alternative Data**: `Finnhub API` (Institutional News Feed).
+* **NLP Engine**: `NLTK / VADER` (Lexicon-based Sentiment Scoring).
+* **Visuals**: `Plotly` (High-Fidelity Multi-track Subplots).
 
 ---
 
-##  Project Roadmap
+## 🗺 Project Roadmap
 
 ### Phase 1: Market Data Pipeline
 * Connect to `yfinance` and handle **Multi-Index** dataframes.
-* Implement **API Authentication** for Finnhub and Google Gemini.
-* Build a high-performance reactive sidebar.
+* Clean and flatten time-series data for mathematical processing.
 
-### Phase 2: The Unified Quant Engine
+### Phase 2: The Quantitative Engine
 Hand-code a multi-track indicator workspace:
-* **Bollinger Bands:** Volatility envelopes for mean-reversion.
-* **RSI Oscillator:** Identifying overbought/oversold momentum.
-* **MACD Trend:** Tracking signal line crossovers for entry/exit timing.
+* **Bollinger Bands**: Measuring volatility using Standard Deviation.
+* **RSI Oscillator**: Identifying overbought (>70) and oversold (<30) momentum.
+* **MACD Trend**: Tracking signal line crossovers to find trend reversals.
+
+
 
 ### Phase 3: AI Sentiment Analysis
-* Implement live news fetching via **Finnhub**.
+* Implement live news fetching via the **Finnhub API**.
 * Process headlines through the **VADER Sentiment Engine**.
-* Calculate an **Aggregate Mood Score** from -1.0 (Panic) to +1.0 (Euphoria).
+* Map human narrative to a numerical score from -1.0 (Panic) to +1.0 (Euphoria).
 
-### Phase 4: Agentic Report Generation
-* Build the **Weighted Verdict Logic** (Combining RSI, BB, MACD, and Sentiment).
+### Phase 4: The Verdict Engine
+* Build a **Weighted Decision Matrix**.
+* Synthesize RSI, Bollinger, MACD, and Sentiment into a final terminal output.
+* Provide a transparent **Logic Breakdown** for every decision.
+
+### Phase 5: Backtest Lab
+* Simulate your strategy on historical data.
+* Compare your **Equity Curve** against a **Buy & Hold** benchmark.
+
+
+
 ---
 
-## Installation & Setup
+## 🔧 Installation & Setup
 
-1. **Clone & Install:**
+Follow these steps to get the terminal running on your local machine:
+
+### 1. Install Python & Environment
+* Ensure you have **Python 3.10+** installed.
+* **Important**: During installation, check the box **"Add Python to PATH"**.
+
+### 2. Install Required Libraries
+Open your terminal (CMD, PowerShell, or Bash) and run:
 ```bash
-git clone [https://github.com/](https://github.com/)[RMS1806]/Aurora.git
-cd Aurora
-pip install streamlit yfinance pandas numpy nltk plotly finnhub-python google-generativeai
+pip install streamlit yfinance pandas numpy nltk plotly finnhub-python
